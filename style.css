@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "arial", sans-serif;
+}
+section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+section header {
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 15px;
+}
+section header ul {
+  display: flex;
+  /* justify-content: center;
+    align-items: center; */
+}
+section header ul li {
+  margin-left: 15px;
+  list-style: none;
+}
+section header ul li a {
+  color: #111;
+  text-decoration: none;
+  font-size: 13px;
+}
+section header ul li a:hover {
+  text-decoration: underline;
+}
+section #container {
+
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section .search-box {
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+  
+}
+section .search-box .search {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #adaeb1;
+  border-radius: 30px;
+  outline: none;
+  font-size: 18px;
+  padding: 20px 40px;
+  
+}
+section .search-box .search:hover, section .search-box .search:active{
+    box-shadow: 0 2px 7px 2px #adaeb1;
+
+}
+section #container .search-box .icons {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  pointer-events: none;
+}
+section #container .search-box .buttons {
+  margin-top: 30px;
+  margin-left: 130px;
+
+}
+section #container .buttons button {
+width: fit-content;
+  margin: 0 12px;
+  padding: 12px 15px;
+  font-size: 14px;
+  border-radius: 7px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  outline: none;
+}
+section #container .buttons button:hover
+{
+    border: 1px solid #adaeb1;
+}
+
+
+
+
+/* Image Searxh PAge */
+section #container .search-box .buttonsimg {
+text-align: center;
+justify-content: center;
+margin: 20px;
+
+}
+section #container .buttonsimg button {
+width: fit-content;
+  margin: 0 12px;
+  padding: 12px 15px;
+  font-size: 14px;
+  border-radius: 7px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  outline: none;
+}
+section #container .buttonsimg button:hover
+{
+    border: 1px solid #adaeb1;
+}
